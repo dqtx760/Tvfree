@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电视喵 - 一站式TV应用资源中心</title>
+    
+    <!-- SEO & Meta -->
+    <meta name="description" content="收集全网 Android TV电视盒子应用，涵盖影视、直播、K歌、工具、游戏等类型，整理优质APK资源，支持便捷下载与自动更新。">
+    <meta name="keywords" content="电视盒子, Android TV, TV应用, TVBox, 直播软件, 影视APP, 电视喵, IPTV, m3u">
+    <meta name="author" content="大强同学">
+
+    <!-- TailwindCSS JIT CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts for a modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #6366f1, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .dark .gradient-text {
+             background: linear-gradient(135deg, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-slate-800 text-gray-800 dark:text-gray-200 transition-colors duration-300">
+
+    <!-- ====== Header ====== -->
+    <header class="sticky top-0 z-50 bg-white/70 dark:bg-gray-900/70 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3">
+                <i class="fas fa-tv text-2xl text-indigo-500"></i>
+                <span class="text-xl font-bold text-gray-900 dark:text-white">电视喵</span>
+            </a>
+            <div class="flex items-center gap-4">
+                <nav class="hidden md:flex items-center gap-6 text-sm font-semibold">
+                    <a href="#downloads" class="text-gray-600 dark:text-gray-300 hover:text-indigo-500 transition-colors">软件下载</a>
+                    <a href="#sources" class="text-gray-600 dark:text-gray-300 hover:text-indigo-500 transition-colors">接口获取</a>
+                    <a href="https://pan.xunlei.com/s/VOao-K2eDC8w5tT6z-dwKvOzA1?pwd=eb3r#" target="_blank" rel="noopener noreferrer" class="text-gray-600 dark:text-gray-300 hover:text-indigo-500 transition-colors">安装教程</a>
+                    <a href="http://742112.xyz" target="_blank" rel="noopener noreferrer" class="text-gray-600 dark:text-gray-300 hover:text-indigo-500 transition-colors">远程协助</a>
+                </nav>
+                <button id="theme-toggle" aria-label="Toggle theme" class="w-10 h-10 flex justify-center items-center rounded-lg text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all">
+                    <i class="fas fa-sun text-lg"></i>
+                    <i class="fas fa-moon text-lg"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 pt-12">
+
+        <!-- ====== Tools Section ====== -->
+        <section id="tools" class="pb-16">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                <a href="https://github.com/lizongying/my-tv-0/releases" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">MyTV</span>
+                </a>
+                <a href="https://tvbox.clbug.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">TVBox</span>
+                </a>
+                <a href="https://yangxiaoge.github.io/yingshi/index.html" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">影视TV</span>
+                </a>
+                <a href="https://github.com/orion-lib/OrionTV/releases" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">OrionTV</span>
+                </a>
+                <a href="https://github.com/xiaye13579/BBLL/releases" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">BBLL</span>
+                </a>
+                <a href="https://bmh.163.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">网易爆米花</span>
+                </a>
+                <a href="https://yang-1989.eu.org/Conversion.php" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">在线TXT转M3U</span>
+                </a>
+                <a href="https://proxy.pipers.cn/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">GitHub加速</span>
+                </a>
+                <a href="https://ipw.cn/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">IPV6查询</span>
+                </a>
+                <a href="https://github.com/yuemediaszhang/tvbox_iptv" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center text-center bg-white/80 dark:bg-gray-800/80 px-4 py-2 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-indigo-500 transition-all transform hover:-translate-y-1">
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">VLC(m3u)</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ====== Downloads Section ====== -->
+        <section id="downloads" class="pb-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1: 直播 -->
+                <div class="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-md overflow-hidden border border-gray-200 dark:border-gray-700 hover:shadow-2xl hover:border-indigo-500 dark:hover:border-indigo-500 transform hover:-translate-y-1 transition-all duration-300">
+                    <img class="h-48 w-full object-cover" src="https://gitee.com/da-qiang-classmate/typora/raw/master/image/20251005190312435.webp" alt="直播应用截图" loading="lazy">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">直播类</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-6">海量电视频道，高清流畅画质，涵盖各地卫视、国际频道等。</p>
+                        <a href="https://pan.xunlei.com/s/VOanzmjjIZ3N0b128CaTxWbnA1?pwd=hj6b#" target="_blank" class="w-full inline-flex items-center justify-center gap-2 bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 font-semibold px-4 py-2 rounded-lg hover:bg-indigo-200 dark:hover:bg-indigo-900 transition-colors">
+                            <i class="fas fa-cloud-download-alt"></i> 前往下载
+                        </a>
+                    </div>
+                </div>
+                <!-- Card 2: 影视 -->
+                <div class="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-md overflow-hidden border border-gray-200 dark:border-gray-700 hover:shadow-2xl hover:border-indigo-500 dark:hover:border-indigo-500 transform hover:-translate-y-1 transition-all duration-300">
+                    <img class="h-48 w-full object-cover" src="https://gitee.com/da-qiang-classmate/typora/raw/master/image/20251005190426433.webp" alt="TVBox截图" loading="lazy">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">影视类</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-6">聚合多个视频源，支持4K/8K超清播放，是观影追剧的不二之选。</p>
+                        <a href="https://pan.xunlei.com/s/VOanzshj1WyNtSjBLtpWms9OA1?pwd=bvta#" target="_blank" class="w-full inline-flex items-center justify-center gap-2 bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 font-semibold px-4 py-2 rounded-lg hover:bg-indigo-200 dark:hover:bg-indigo-900 transition-colors">
+                            <i class="fas fa-cloud-download-alt"></i> 前往下载
+                        </a>
+                    </div>
+                </div>
+                <!-- Card 3: 工具 -->
+                <div class="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-md overflow-hidden border border-gray-200 dark:border-gray-700 hover:shadow-2xl hover:border-indigo-500 dark:hover:border-indigo-500 transform hover:-translate-y-1 transition-all duration-300">
+                    <img class="h-48 w-full object-cover" src="https://gitee.com/da-qiang-classmate/typora/raw/master/image/20251005190627336.webp" alt="应用管家截图" loading="lazy">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">工具类</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-6">电视桌面替换，管理已安装应用，清理工具等。</p>
+                        <a href="https://pan.xunlei.com/s/VOao0NoYxzQSFI5JyTNG8wjaA1?pwd=wkhj#" target="_blank" class="w-full inline-flex items-center justify-center gap-2 bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 font-semibold px-4 py-2 rounded-lg hover:bg-indigo-200 dark:hover:bg-indigo-900 transition-colors">
+                            <i class="fas fa-cloud-download-alt"></i> 前往下载
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== Sources Section ====== -->
+        <section id="sources" class="py-16">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- 直播源 -->
+                <div class="flex flex-col">
+                    <h3 class="flex items-center gap-3 text-xl font-bold mb-4">
+                        <i class="fas fa-broadcast-tower text-indigo-500"></i>
+                        <span>直播源</span>
+                    </h3>
+                    <div class="relative bg-gray-100/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-lg p-4 font-mono text-sm text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 flex-grow">
+                        <button class="copy-btn absolute top-3 right-3 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 px-3 py-1 rounded text-xs font-semibold transition-colors" data-clipboard-target="#live-source">
+                            <i class="far fa-copy mr-1"></i> 复制
+                        </button>
+                        <pre id="live-source" class="whitespace-pre-wrap break-all"><code>----------
+
+https://live.zbds.top/tv/iptv4.txt
+
+https://raw.githubusercontent.com/joevess/IPTV/main/home.m3u8</code></pre>
+                    </div>
+                </div>
+                <!-- IPTv源 -->
+                <div class="flex flex-col">
+                    <h3 class="flex items-center gap-3 text-xl font-bold mb-4">
+                        <i class="fas fa-tv-alt text-indigo-500"></i>
+                        <span>IPTv源</span>
+                    </h3>
+                    <div class="relative bg-gray-100/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-lg p-4 font-mono text-sm text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 flex-grow">
+                        <button class="copy-btn absolute top-3 right-3 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 px-3 py-1 rounded text-xs font-semibold transition-colors" data-clipboard-target="#iptv-source">
+                            <i class="far fa-copy mr-1"></i> 复制
+                        </button>
+                        <pre id="iptv-source" class="whitespace-pre-wrap break-all"><code>----------
+	
+https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+
+https://github.com/dqtx760/iptv-api/blob/master/output/user_result.m3u</code></pre>
+                    </div>
+                </div>
+                <!-- 点播源（TVBox） -->
+                <div class="flex flex-col">
+                    <h3 class="flex items-center gap-3 text-xl font-bold mb-4">
+                        <i class="fas fa-database text-indigo-500"></i>
+                        <span>TVBox源</span>
+                    </h3>
+                    <div class="relative bg-gray-100/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-lg p-4 font-mono text-sm text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 flex-grow">
+                        <button class="copy-btn absolute top-3 right-3 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 px-3 py-1 rounded text-xs font-semibold transition-colors" data-clipboard-target="#api-source">
+                            <i class="far fa-copy mr-1"></i> 复制
+                        </button>
+                        <pre id="api-source" class="whitespace-pre-wrap break-all"><code>http://www.饭太硬.com/tv
+http://ok321.top/tv
+http://我不是.摸鱼儿.com
+http://肥猫.com
+http://fty.xxooo.cf/tv
+http://xhztv.top/dc/</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ====== Footer ====== -->
+    <footer class="bg-white/50 dark:bg-gray-900/50 border-t border-gray-200 dark:border-gray-800">
+        <div class="max-w-5xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <div class="text-gray-600 dark:text-gray-400">
+                <p class="text-sm">
+                    ⚠️免费声明：仅作资源分享，所有资源版权归原作者，禁止用于商业用途！
+                </p>
+            </div>
+            <div class="flex justify-center items-center gap-6 mt-4 md:mt-0">
+                 <a href="https://dqtx.cc/" target="_blank" class="text-gray-500 hover:text-indigo-500 transition-colors" aria-label="Website Link">
+                    <i class="fas fa-link text-xl"></i>
+                 </a>
+                 <a href="https://github.com/dqtx760" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors" aria-label="GitHub Profile">
+                    <i class="fab fa-github text-xl"></i>
+                 </a>
+                 <a href="https://x.com/dqtx760" target="_blank" class="text-gray-500 hover:text-black dark:hover:text-white transition-colors" aria-label="Twitter Profile">
+                    <i class="fab fa-twitter text-xl"></i>
+                 </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ====== JavaScript ====== -->
+    <script>
+        (function() {
+            'use strict';
+
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const sunIcon = themeToggleBtn.querySelector('.fa-sun');
+            const moonIcon = themeToggleBtn.querySelector('.fa-moon');
+            const htmlEl = document.documentElement;
+
+            const setTheme = (theme) => {
+                if (theme === 'dark') {
+                    htmlEl.classList.add('dark');
+                    sunIcon.style.display = 'block';
+                    moonIcon.style.display = 'none';
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    htmlEl.classList.remove('dark');
+                    sunIcon.style.display = 'none';
+                    moonIcon.style.display = 'block';
+                    localStorage.setItem('theme', 'light');
+                }
+            };
+
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (savedTheme) {
+                setTheme(savedTheme);
+            } else {
+                setTheme(prefersDark ? 'dark' : 'light');
+            }
+            
+            themeToggleBtn.addEventListener('click', () => {
+                const isDark = htmlEl.classList.contains('dark');
+                setTheme(isDark ? 'light' : 'dark');
+            });
+
+            const copyButtons = document.querySelectorAll('.copy-btn');
+            copyButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const targetId = button.dataset.clipboardTarget;
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        navigator.clipboard.writeText(targetElement.textContent || targetElement.innerText)
+                            .then(() => {
+                                const originalText = button.innerHTML;
+                                button.innerHTML = '<i class="fas fa-check mr-1"></i> 已复制';
+                                button.classList.add('bg-green-200', 'dark:bg-green-700');
+                                setTimeout(() => {
+                                    button.innerHTML = originalText;
+                                    button.classList.remove('bg-green-200', 'dark:bg-green-700');
+                                }, 2000);
+                            })
+                            .catch(err => {
+                                console.error('Failed to copy text: ', err);
+                            });
+                    }
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
