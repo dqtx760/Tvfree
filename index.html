@@ -285,10 +285,10 @@ https://tv.yang-1989.eu.org</code></pre>
                         
                         if (navigator.clipboard && navigator.clipboard.writeText) {
                             navigator.clipboard.writeText(textToCopy)
-                                。then(() => {
+                                .then(() => {
                                     showCopyFeedback(button);
                                 })
-                                。catch(err => {
+                                .catch(err => {
                                     console.error('Failed to copy text: ', err);
                                 });
                         } else {
