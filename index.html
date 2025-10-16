@@ -73,6 +73,17 @@
             transition: background-color 0.3s, border-color 0.3s, color 0.3s;
         }
     </style>
+    
+    <!-- Theme Initializer - Placed in head to prevent theme flash -->
+    <script>
+        (function() {
+            const theme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (theme === 'dark' || (!theme && prefersDark)) {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+    </script>
 </head>
 
 <body class="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-slate-800 text-gray-800 dark:text-gray-200">
@@ -199,15 +210,15 @@ https://2tv.dqtx.cc/</code></pre>
 http://ok321.top/tv
 http://我不是.摸鱼儿.com
 
-https://tv.yang-1989.eu.org
-⚠️此源仅适用OrionTV点播</code></pre>
+⚠️OrionTV的点播地址
+可用MoonTV作为后端自行搭建</code></pre>
                     </div>
                 </div>
                 <!-- 使用说明 -->
                 <div class="flex flex-col">
                     <h3 class="flex items-center gap-3 text-xl font-bold mb-4"><i class="fas fa-broadcast-tower text-indigo-500"></i><span>使用说明</span></h3>
                     <div class="relative bg-gray-100/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-lg p-4 font-mono text-sm text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 flex-grow">
-                        <pre id="live-source" class="whitespace-pre-wrap break-all"><code>1. IPTV源可在 MyTV、IPTV、TVBox、OrionTV 等应用中正常使用。
+                        <pre id="live-source" class="whitespace-pre-wrap break-all"><code>1. IPTV源可在MyTV/TVBox/OrionTV/酷9/OK影视及苹果IPTV中正常使用。
 
 2. 仅供个人编程学习与研究交流使用，严禁任何形式的商业传播或销售。
 
@@ -243,33 +254,18 @@ by:大强同学 致此感谢！</code></pre>
             const themeToggleBtn = document.getElementById('theme-toggle');
             const htmlEl = document.documentElement;
 
-            // 设置主题函数
-            const setTheme = (theme) => {
-                if (theme === 'dark') {
-                    htmlEl.classList.add('dark');
-                    localStorage.setItem('theme', 'dark');
-                } else {
-                    htmlEl.classList.remove('dark');
-                    localStorage.setItem('theme', 'light');
-                }
-            };
-
-            // 初始化主题
-            const initTheme = () => {
-                const savedTheme = localStorage.getItem('theme');
-                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                setTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
-            };
-
             // 主题切换函数
             const toggleTheme = () => {
                 const isDark = htmlEl.classList.contains('dark');
-                setTheme(isDark ? 'light' : 'dark');
+                if (isDark) {
+                    htmlEl.classList.remove('dark');
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    htmlEl.classList.add('dark');
+                    localStorage.setItem('theme', 'dark');
+                }
             };
 
-            // 初始化
-            initTheme();
-            
             // 添加事件监听器
             if (themeToggleBtn) {
                 themeToggleBtn.addEventListener('click', toggleTheme);
