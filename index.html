@@ -70,7 +70,7 @@
         
         /* Smooth transitions */
         * {
-            transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s, opacity 0.3s, transform 0.3s;
         }
     </style>
     
@@ -89,7 +89,7 @@
 <body class="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-slate-800 text-gray-800 dark:text-gray-200">
 
     <!-- ====== Header ====== -->
-    <header class="sticky top-0 z-50 bg-white/70 dark:bg-gray-900/70 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800">
+    <header class="sticky top-0 z-40 bg-white/70 dark:bg-gray-900/70 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="flex items-center gap-3">
                 <i class="fas fa-tv text-2xl text-indigo-500"></i>
@@ -241,11 +241,57 @@ by:大强同学 致此感谢！</code></pre>
                 </p>
             </div>
             <div class="flex justify-center items-center gap-6 mt-4 md:mt-0">
-                 <a href="https://github.com/dqtx760" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors" aria-label="GitHub Profile"><i class="fab fa-github text-xl"></i></a>
-                 <a href="https://x.com/dqtx760" target="_blank" class="text-gray-500 hover:text-black dark:hover:text-white transition-colors" aria-label="Twitter Profile"><i class="fab fa-twitter text-xl"></i></a>
+                 <a href="https://github.com/dqtx760" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors" aria-label="GitHub Profile"><i class="fab fa-github text-xl"></i></a>
+                 <a href="#" id="wechat-public-trigger" class="text-gray-500 hover:text-green-500 dark:hover:text-green-400 transition-colors" aria-label="WeChat Public Account"><i class="fab fa-weixin text-xl"></i></a>
+                 <!-- Donation Button -->
+                 <a href="#" id="donation-btn" class="text-gray-500 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors" aria-label="Sponsor this project">
+                    <i class="fas fa-coffee text-xl"></i>
+                 </a>
             </div>
         </div>
     </footer>
+    
+    <!-- ====== Donation Modal ====== -->
+    <div id="donation-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-xs p-6 text-center transform transition-all" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <h3 id="modal-title" class="text-lg font-semibold text-gray-900 dark:text-white mb-4">感谢您的支持！</h3>
+            
+            <!-- Payment Tabs -->
+            <div class="flex border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden mb-5">
+                <button id="wechat-tab" class="flex-1 p-2 text-sm font-semibold border-r border-gray-200 dark:border-gray-700 bg-indigo-50 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300">
+                    <i class="fab fa-weixin mr-1"></i> 微信
+                </button>
+                <button id="alipay-tab" class="flex-1 p-2 text-sm font-semibold text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <i class="fab fa-alipay mr-1"></i> 支付宝
+                </button>
+            </div>
+
+            <!-- QR Code -->
+            <div class="p-2 border border-gray-200 dark:border-gray-700 rounded-lg">
+                 <img id="qr-code-img" src="https://gitee.com/da-qiang-classmate/typora/raw/master/image/IMG_4874.webp" alt="WeChat QR Code" class="w-48 h-48 mx-auto">
+            </div>
+
+            <!-- Close Button -->
+            <button id="close-modal-btn" class="mt-6 w-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 font-semibold px-4 py-2 rounded-lg transition-colors">
+                关闭
+            </button>
+        </div>
+    </div>
+
+    <!-- ====== Generic QR Modal ====== -->
+    <div id="generic-qr-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-xs p-6 text-center transform transition-all" role="dialog" aria-modal="true">
+            <h3 id="generic-modal-title" class="text-lg font-semibold text-gray-900 dark:text-white mb-4"></h3>
+            <div class="p-2 border border-gray-200 dark:border-gray-700 rounded-lg">
+                 <img id="generic-modal-qr-img" src="" alt="QR Code" class="w-48 h-48 mx-auto">
+            </div>
+            <p id="generic-modal-desc" class="text-sm text-gray-500 dark:text-gray-400 mt-4"></p>
+            <button id="close-generic-modal-btn" class="mt-6 w-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 font-semibold px-4 py-2 rounded-lg transition-colors">
+                关闭
+            </button>
+        </div>
+    </div>
+
 
     <!-- ====== JavaScript ====== -->
     <script>
@@ -326,6 +372,100 @@ by:大强同学 致此感谢！</code></pre>
                 
                 document.body.removeChild(textArea);
             };
+            
+            // ====== Donation Modal Logic ======
+            const donationBtn = document.getElementById('donation-btn');
+            const donationModal = document.getElementById('donation-modal');
+            const closeModalBtn = document.getElementById('close-modal-btn');
+            const wechatTab = document.getElementById('wechat-tab');
+            const alipayTab = document.getElementById('alipay-tab');
+            const qrCodeImg = document.getElementById('qr-code-img');
+
+            const wechatQRUrl = 'https://gitee.com/da-qiang-classmate/typora/raw/master/image/IMG_4874.webp';
+            const alipayQRUrl = 'https://gitee.com/da-qiang-classmate/typora/raw/master/image/IMG_4877.webp';
+            
+            const activeTabClasses = ['bg-indigo-50', 'dark:bg-indigo-900/50', 'text-indigo-700', 'dark:text-indigo-300'];
+            const inactiveTabClasses = ['text-gray-500', 'dark:text-gray-400', 'hover:bg-gray-100', 'dark:hover:bg-gray-700', 'bg-transparent'];
+
+            if (donationBtn && donationModal) {
+                donationBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    donationModal.classList.remove('hidden');
+                });
+
+                const closeModal = () => {
+                    donationModal.classList.add('hidden');
+                };
+
+                closeModalBtn.addEventListener('click', closeModal);
+                donationModal.addEventListener('click', (e) => {
+                    if (e.target === donationModal) {
+                        closeModal();
+                    }
+                });
+
+                wechatTab.addEventListener('click', () => {
+                    qrCodeImg.src = wechatQRUrl;
+                    qrCodeImg.alt = 'WeChat QR Code';
+                    alipayTab.classList.remove(...activeTabClasses);
+                    alipayTab.classList.add(...inactiveTabClasses);
+                    wechatTab.classList.add(...activeTabClasses);
+                    wechatTab.classList.remove(...inactiveTabClasses);
+                });
+                
+                alipayTab.addEventListener('click', () => {
+                    qrCodeImg.src = alipayQRUrl;
+                    qrCodeImg.alt = 'Alipay QR Code';
+                    wechatTab.classList.remove(...activeTabClasses);
+                    wechatTab.classList.add(...inactiveTabClasses);
+                    alipayTab.classList.add(...activeTabClasses);
+                    alipayTab.classList.remove(...inactiveTabClasses);
+                });
+            }
+
+            // ====== Generic QR Modal Logic ======
+            const genericModal = document.getElementById('generic-qr-modal');
+            const genericModalTitle = document.getElementById('generic-modal-title');
+            const genericModalQrImg = document.getElementById('generic-modal-qr-img');
+            const genericModalDesc = document.getElementById('generic-modal-desc');
+            const closeGenericModalBtn = document.getElementById('close-generic-modal-btn');
+
+            const showQrModal = (title, imageUrl, description) => {
+                if (genericModal) {
+                    genericModalTitle.textContent = title;
+                    genericModalQrImg.src = imageUrl;
+                    genericModalDesc.textContent = description;
+                    genericModal.classList.remove('hidden');
+                }
+            };
+            
+            const closeQrModal = () => {
+                if (genericModal) {
+                    genericModal.classList.add('hidden');
+                }
+            };
+            
+            if (genericModal) {
+                closeGenericModalBtn.addEventListener('click', closeQrModal);
+                genericModal.addEventListener('click', (e) => {
+                    if (e.target === genericModal) {
+                        closeQrModal();
+                    }
+                });
+            }
+
+            // ====== WeChat Public Account Trigger ======
+            const wechatPublicTrigger = document.getElementById('wechat-public-trigger');
+            if (wechatPublicTrigger) {
+                wechatPublicTrigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    showQrModal(
+                        '微信公众号', 
+                        'https://gitee.com/da-qiang-classmate/typora/raw/master/image/687df59c-f85e-4a5f-ab35-cf86112e87fd.webp', 
+                        '扫码关注「大强同学」'
+                    );
+                });
+            }
 
         })();
     </script>
