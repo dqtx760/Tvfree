@@ -2,7 +2,7 @@
 
 直播：[我的电视](https://coke.buyzur.com/#/register?code=L2FOV7Yb)
 
-点播：[TVBOX](https://github.com/o0HalfLife0o/TVBoxOSC/releases)  [直播源](https://kdocs.cn/l/cbqzlC3waPFX)
+点播：[TVBOX](https://github.com/o0HalfLife0o/TVBoxOSC/releases)  [OK影视](https://github.com/FongMi/Release/tree/okjack/apk/release)
 
 B站：[BBLL](https://github.com/xiaye13579/BBLL)  
 
