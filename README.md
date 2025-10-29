@@ -1,12 +1,8 @@
-# 电视喵 -TV应用资源导航
+# 一个TV资源导航网站
 
-[![GitHub](https://img.shields.io/badge/GitHub-大强同学-181717?logo=github)](https://github.com/dqtx760)
-[![飞书文档](https://img.shields.io/badge/知识库-教程合集-00A1E9?logo=feishu)](https://xodnytdcaw.feishu.cn/wiki/BtjSwIjMuiISo7kNFiQcMMXcnKc)
-[![关注公众号](https://img.shields.io/badge/公众号-大强同学-07C160?logo=wechat)](https://gitee.com/da-qiang-classmate/typora/raw/master/image/687df59c-f85e-4a5f-ab35-cf86112e87fd.webp) <!-- 假设这是公众号二维码链接 -->
-
-## 🚀 项目简介
 
 **电视喵**：一个致力于收集全网优质 Android TV电视盒子应用及资源的综合平台。我们提供涵盖直播、影视、工具等多种类型的APK资源，旨在为广大电视盒子用户提供便捷的下载、更新服务，以及最新的影视和直播接口，让您的智能电视体验更上一层楼。
+
 
 ## ✨ 主要功能
 
@@ -73,8 +69,7 @@ https://gitee.com/da-qiang-classmate/typora/raw/master/image/1760714628427.webp`
 ```
 
 
-
-### 使用说明
+注意源导入说明
 
 1.  **直播类软件**：仅支持导入IPTV源，如酷9、mytv、yourtv等。
 2.  **影视类软件**：同时支持导入IPTV源与TVBox源，如OK影视，MediaMiX等。
@@ -83,9 +78,9 @@ https://gitee.com/da-qiang-classmate/typora/raw/master/image/1760714628427.webp`
 
 如果您有任何疑问、建议或合作意向，欢迎通过以下方式联系「大强同学」：
 
-[![GitHub](https://img.shields.io/badge/GitHub-dqtx760-181717?logo=github)](https://github.com/dqtx760)
-[![公众号](https://img.shields.io/badge/微信公众号-大强同学-07C160?logo=wechat)](https://gitee.com/da-qiang-classmate/typora/raw/master/image/687df59c-f85e-4a5f-ab35-cf86112e87fd.webp) <!-- 假设这是公众号二维码链接 -->
-
+[![GitHub](https://img.shields.io/badge/GitHub-大强同学-181717?logo=github)](https://github.com/dqtx760)
+[![飞书文档](https://img.shields.io/badge/知识库-教程合集-00A1E9?logo=feishu)](https://xodnytdcaw.feishu.cn/wiki/BtjSwIjMuiISo7kNFiQcMMXcnKc)
+[![关注公众号](https://img.shields.io/badge/公众号-大强同学-07C160?logo=wechat)](https://gitee.com/da-qiang-classmate/typora/raw/master/image/687df59c-f85e-4a5f-ab35-cf86112e87fd.webp) <!-- 假设这是公众号二维码链接 -->
 ---
 
 **免费声明**：本站所有资源仅作分享，版权归原作者所有，禁止用于任何商业用途！
