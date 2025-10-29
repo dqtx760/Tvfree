@@ -7,14 +7,14 @@
 
 我们追求的，是赋予您的智能电视以灵动之魂，让每一次交互皆是探索未知之境，每一次观影皆是沉浸式体验的升华，从而引领您的客厅娱乐迈向一个更深邃、更广阔的维度。在电视喵的赋能下，您的视界将不再受限于既有框架，而是延展至无限可能。
 
-## 主要功能
+## ✅主要功能
 
 -   **海量TV应用下载**：精心整理各类优质电视应用，一键直达下载链接。
 -   **实时接口更新**：提供稳定可靠的IPTV直播源和TVBox点播源。
 -   **实用工具集成**：聚合多项电视盒子实用工具，优化使用体验。
 -   **粉丝专属福利**：不定期分享独家资源与教程。
 
-## 开源地址
+## ✅开源地址
 
 | 类型            | 应用名称    | 更新链接                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :-------------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,24 +30,16 @@
 | **在线-工具**   | TXT/M3U转换 | [![TXT/M3U转换](https://img.shields.io/badge/-TXT%2FM3U转换-yellowgreen)](https://www.qiushui.vip/gj/zh.html)                                                                                                                                                                                                                                                                                                                                                                           |
 | **在线-工具**   | M3u检测     | [![M3u检测](https://img.shields.io/badge/-M3u检测-darkgreen)](https://pan.xunlei.com/s/VObOEh5aX766n2zOEttkN1oPA1?pwd=t6ku#)                                                                                                                                                                                                                                                                                                                                                             |
 
-## 应用合集
+## ✅应用合集
 
-### 1. 直播类应用
+### 1. 直播类应用：[![下载地址](https://img.shields.io/badge/-前往下载-informational)](https://pan.xunlei.com/x/VOc03g4SRNe1cv1Q-k6u7G2lA1?pwd=mt63#)
 
-海量电视频道，高清流畅画质，涵盖各地卫视、国际频道等。
-[![前往下载](https://img.shields.io/badge/-前往下载-informational)](https://pan.xunlei.com/x/VOc03g4SRNe1cv1Q-k6u7G2lA1?pwd=mt63#)
+### 2. 影视类应用：[![下载地址](https://img.shields.io/badge/-前往下载-informational)](https://pan.xunlei.com/x/VOc03mdrabEobKGnIwPCUvREA1?pwd=2ku6#)
 
-### 2. 影视类应用 (TVBox等)
+### 3. 工具类应用：[![下载地址](https://img.shields.io/badge/-前往下载-informational)](https://pan.xunlei.com/x/VOc03sJogWROkrLSr6DyApFrA1?pwd=nmsb#)
 
-聚合多个视频源，支持4K/8K超清播放，是观影追剧的不二之选。
-[![前往下载](https://img.shields.io/badge/-前往下载-informational)](https://pan.xunlei.com/x/VOc03mdrabEobKGnIwPCUvREA1?pwd=2ku6#)
 
-### 3. 工具类应用
-
-电视桌面替换，管理已安装应用，清理工具等。
-[![前往下载](https://img.shields.io/badge/-前往下载-informational)](https://pan.xunlei.com/x/VOc03sJogWROkrLSr6DyApFrA1?pwd=nmsb#)
-
-## 🔗 接口获取
+## ✅接口获取
 
 ### IPTV源
 
@@ -77,15 +69,17 @@ https://gitee.com/da-qiang-classmate/typora/raw/master/image/1760714628427.webp`
 1.  **直播类软件**：仅支持导入IPTV源，如酷9、mytv、yourtv等。
 2.  **影视类软件**：同时支持导入IPTV源与TVBox源，如OK影视，MediaMiX等。
 
-## 联系我
+## ✅Contact 
 
-如果您有任何疑问、建议或合作意向，欢迎通过以下方式联系「大强同学」：
+如果您有任何疑问、建议或合作意向，欢迎联系！
+
+**免费声明**：本站所有资源仅作分享，版权归原作者所有，禁止用于任何商业用途！
 
 [![GitHub](https://img.shields.io/badge/GitHub-大强同学-181717?logo=github)](https://github.com/dqtx760)
 [![飞书文档](https://img.shields.io/badge/知识库-教程合集-00A1E9?logo=feishu)](https://xodnytdcaw.feishu.cn/wiki/BtjSwIjMuiISo7kNFiQcMMXcnKc)
 [![关注公众号](https://img.shields.io/badge/公众号-大强同学-07C160?logo=wechat)](https://gitee.com/da-qiang-classmate/typora/raw/master/image/687df59c-f85e-4a5f-ab35-cf86112e87fd.webp) <!-- 假设这是公众号二维码链接 -->
 ---
 
-**免费声明**：本站所有资源仅作分享，版权归原作者所有，禁止用于任何商业用途！
+
 
 ---
