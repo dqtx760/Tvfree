@@ -191,31 +191,51 @@
         <!-- ====== Sources Section (Part 3) ====== -->
         <section id="sources" class="py-8">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
                 <!-- IPTv源 -->
                 <div class="flex flex-col">
                     <h3 class="flex items-center gap-3 text-xl font-bold mb-4"><i class="fas fa-tv-alt text-indigo-500"></i><span>IPTv源</span></h3>
-                    <div class="relative bg-gray-100/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-lg p-4 font-mono text-sm text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 flex-grow">
-                        <button class="copy-btn absolute bottom-3 right-3 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 px-3 py-1 rounded text-xs font-semibold transition-colors" data-clipboard-target="#iptv-source"><i class="far fa-copy mr-1"></i> 复制</button>
-                        <pre id="iptv-source" class="whitespace-pre-wrap break-all"><code>http://1tv.dqtx.cc/
-
-http://2tv.dqtx.cc
-
-https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u/</code></pre>
+                    <div class="flex flex-col flex-grow justify-between">
+                        <!-- Link 1 -->
+                        <div class="flex items-center gap-2">
+                            <div id="iptv-link-1" class="flex-grow bg-gray-100 dark:bg-gray-900/80 p-3 rounded-lg font-mono text-sm text-gray-700 dark:text-gray-300 truncate border border-gray-200 dark:border-gray-700">http://1tv.dqtx.cc/</div>
+                            <button class="copy-btn whitespace-nowrap bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors" data-clipboard-target="#iptv-link-1">复制</button>
+                        </div>
+                        <!-- Link 2 -->
+                        <div class="flex items-center gap-2">
+                            <div id="iptv-link-2" class="flex-grow bg-gray-100 dark:bg-gray-900/80 p-3 rounded-lg font-mono text-sm text-gray-700 dark:text-gray-300 truncate border border-gray-200 dark:border-gray-700">http://2tv.dqtx.cc</div>
+                            <button class="copy-btn whitespace-nowrap bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors" data-clipboard-target="#iptv-link-2">复制</button>
+                        </div>
+                        <!-- Link 3 -->
+                        <div class="flex items-center gap-2">
+                            <div id="iptv-link-3" class="flex-grow bg-gray-100 dark:bg-gray-900/80 p-3 rounded-lg font-mono text-sm text-gray-700 dark:text-gray-300 truncate border border-gray-200 dark:border-gray-700">https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u/</div>
+                            <button class="copy-btn whitespace-nowrap bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors" data-clipboard-target="#iptv-link-3">复制</button>
+                        </div>
                     </div>
                 </div>
+
                 <!-- 点播源（TVBox） -->
                 <div class="flex flex-col">
                     <h3 class="flex items-center gap-3 text-xl font-bold mb-4"><i class="fas fa-database text-indigo-500"></i><span>TVBox源</span></h3>
-                    <div class="relative bg-gray-100/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-lg p-4 font-mono text-sm text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 flex-grow">
-                        <button class="copy-btn absolute bottom-3 right-3 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 px-3 py-1 rounded text-xs font-semibold transition-colors" data-clipboard-target="#api-source"><i class="far fa-copy mr-1"></i> 复制</button>
-                        <pre id="api-source" class="whitespace-pre-wrap break-all"><code>http://cdn.qiaoji8.com/tvbox.json
-
-https://9877.kstore.space/AnotherD/api.json
-
-⚠️OrionTV的点播地址
-可用MoonTV作为后端自行搭建</code></pre>
+                    <div class="flex flex-col flex-grow justify-between">
+                        <!-- Link 1 -->
+                        <div class="flex items-center gap-2">
+                            <div id="tvbox-link-1" class="flex-grow bg-gray-100 dark:bg-gray-900/80 p-3 rounded-lg font-mono text-sm text-gray-700 dark:text-gray-300 truncate border border-gray-200 dark:border-gray-700">http://cdn.qiaoji8.com/tvbox.json</div>
+                            <button class="copy-btn whitespace-nowrap bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors" data-clipboard-target="#tvbox-link-1">复制</button>
+                        </div>
+                        <!-- Link 2 -->
+                        <div class="flex items-center gap-2">
+                            <div id="tvbox-link-2" class="flex-grow bg-gray-100 dark:bg-gray-900/80 p-3 rounded-lg font-mono text-sm text-gray-700 dark:text-gray-300 truncate border border-gray-200 dark:border-gray-700">https://9877.kstore.space/AnotherD/api.json</div>
+                            <button class="copy-btn whitespace-nowrap bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors" data-clipboard-target="#tvbox-link-2">复制</button>
+                        </div>
+                         <!-- Link 3 -->
+                        <div class="flex items-center gap-2">
+                            <div id="tvbox-link-3" class="flex-grow bg-gray-100 dark:bg-gray-900/80 p-3 rounded-lg font-mono text-sm text-gray-700 dark:text-gray-300 truncate border border-gray-200 dark:border-gray-700">https://gitee.com/da-qiang-classmate/typora/raw/master/image/1760714628427.webp</div>
+                            <button class="copy-btn whitespace-nowrap bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors" data-clipboard-target="#tvbox-link-3">复制</button>
+                        </div>
                     </div>
                 </div>
+
                 <!-- 使用说明 -->
                 <div class="flex flex-col">
                     <h3 class="flex items-center gap-3 text-xl font-bold mb-4"><i class="fas fa-broadcast-tower text-indigo-500"></i><span>使用说明</span></h3>
@@ -328,7 +348,7 @@ by:大强同学 致此感谢！</code></pre>
                         const textToCopy = targetElement.textContent || targetElement.innerText;
                         
                         if (navigator.clipboard && navigator.clipboard.writeText) {
-                            navigator.clipboard.writeText(textToCopy)
+                            navigator.clipboard.writeText(textToCopy.trim())
                                 .then(() => {
                                     showCopyFeedback(button);
                                 })
@@ -336,7 +356,7 @@ by:大强同学 致此感谢！</code></pre>
                                     console.error('Failed to copy text: ', err);
                                 });
                         } else {
-                            fallbackCopyText(textToCopy, button);
+                            fallbackCopyText(textToCopy.trim(), button);
                         }
                     }
                 });
@@ -346,10 +366,15 @@ by:大强同学 致此感谢！</code></pre>
             const showCopyFeedback = (button) => {
                 const originalText = button.innerHTML;
                 button.innerHTML = '<i class="fas fa-check mr-1"></i> 已复制';
-                button.classList.add('bg-green-200', 'dark:bg-green-700');
+                // Temporarily change color to green for feedback
+                button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+                button.classList.add('bg-green-500', 'hover:bg-green-600');
+                
                 setTimeout(() => {
                     button.innerHTML = originalText;
-                    button.classList.remove('bg-green-200', 'dark:bg-green-700');
+                    // Revert back to the original blue color
+                    button.classList.remove('bg-green-500', 'hover:bg-green-600');
+                    button.classList.add('bg-blue-600', 'hover:bg-blue-700');
                 }, 2000);
             };
 
@@ -357,6 +382,8 @@ by:大强同学 致此感谢！</code></pre>
             const fallbackCopyText = (text, button) => {
                 const textArea = document.createElement('textarea');
                 textArea.value = text;
+                textArea.style.position = 'absolute';
+                textArea.style.left = '-9999px';
                 document.body.appendChild(textArea);
                 textArea.focus();
                 textArea.select();
