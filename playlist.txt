@@ -1,0 +1,45 @@
+#EXTM3U x-tvg-url="https://diyp.112114.xyz/pp.xml"
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://diyp.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV1
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV1&t=1761535820&token=e0d3682a414c20a42405e6e906daa092
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://diyp.112114.xyz/logo/CCTV2.png" group-title="央视",CCTV2
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV2&t=1761535820&token=f376129a7a3bd45f6272090e4bf2931e
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://diyp.112114.xyz/logo/CCTV3.png" group-title="央视",CCTV3
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV3&t=1761535820&token=94ceb2a589994f81322adead709e19f0
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://diyp.112114.xyz/logo/CCTV4.png" group-title="央视",CCTV4
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV4&t=1761535820&token=e8f47ed3c74dfa5b9ad8d59df6682572
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://diyp.112114.xyz/logo/CCTV5.png" group-title="央视",CCTV5
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV5&t=1761535820&token=ba08c45bfa06b30188b308334df13a8e
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://diyp.112114.xyz/logo/CCTV6.png" group-title="央视",CCTV6
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV6&t=1761535820&token=10852e5c8b08d932cbd92ac20cf3f405
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://diyp.112114.xyz/logo/CCTV7.png" group-title="央视",CCTV7
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV7&t=1761535820&token=cbef6346ddc87a01b65070120d59175e
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://diyp.112114.xyz/logo/CCTV8.png" group-title="央视",CCTV8
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV8&t=1761535820&token=3a0617f3d0b8e132cb735ac914207e93
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://diyp.112114.xyz/logo/CCTV8.png" group-title="央视",CCTV8
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV9&t=1761535820&token=542e3d70b754662cf452086127ffde47
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://diyp.112114.xyz/logo/CCTV9.png" group-title="央视",CCTV9
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV9&t=1761535820&token=542e3d70b754662cf452086127ffde47
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://diyp.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV10
+https://stream.iptv-search.com/iptv_test/main.php?id=CCTV10&t=1761535820&token=10454c725c9b35986b6c9650f7d2a752
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://diyp.112114.xyz/logo/浙江卫视.png" group-title="地方",浙江卫视
+https://stream.iptv-search.com/iptv_test/main.php?id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86&t=1761535820&token=1a504826167102e5b6169e95893a3241
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://diyp.112114.xyz/logo/湖南卫视.png" group-title="地方",湖南卫视
+http://api.kkitv.itv888.cn:8080/hls/hoxiunz7ce/index.m3u8
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://diyp.112114.xyz/logo/河北卫视.png" group-title="地方",河北卫视
+http://api.kkitv.itv888.cn:8080/hls/nd41hwdr82i/index.m3u8
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://diyp.112114.xyz/logo/云南卫视.png" group-title="地方",云南卫视
+http://api.kkitv.itv888.cn:8080/hls/jwvhleddq5/index.m3u8
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://diyp.112114.xyz/logo/CHC动作电影.png" group-title="电影",CHC动作电影
+https://stream.iptv-search.com/iptv_test/main.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1&t=1761535820&token=940957bbd1b11982b948766135ba74cb
+#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://diyp.112114.xyz/logo/CHC影迷电影.png" group-title="电影",CHC影迷电影
+https://stream.iptv-search.com/iptv_test/main.php?id=CHC%E5%BD%B1%E8%BF%B7%E7%94%B5%E5%BD%B1&t=1761535820&token=ba96d274be6245dec71641dc99d4a22b
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://diyp.112114.xyz/logo/CHC动作电影.png" group-title="电影",CHC动作电影
+https://stream.iptv-search.com/iptv_test/main.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1&t=1761535820&token=940957bbd1b11982b948766135ba74cb
+#EXTINF:-1 tvg-id="凤凰卫视" tvg-name="凤凰卫视" tvg-logo="https://diyp.112114.xyz/logo/凤凰卫视.png" group-title="港澳",凤凰卫视
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://diyp.112114.xyz/logo/凤凰资讯.png" group-title="港澳",凤凰资讯
+https://stream.iptv-search.com/iptv_test/main.php?id=%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF&t=1761535820&token=5fbf05044e2b730b81617889dfb00535
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://diyp.112114.xyz/logo/凤凰香港.png" group-title="港澳",凤凰香港
+https://stream.iptv-search.com/iptv_test/main.php?id=%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF&t=1761535820&token=8ed845e19fdc4757cf58b9873744337d
+#EXTINF:-1 tvg-id="中天综合" tvg-name="中天综合" tvg-logo="https://diyp.112114.xyz/logo/中天综合.png" group-title="港澳",中天综合
+http://cnlive.org/channel/41db6ede/index.m3u8
