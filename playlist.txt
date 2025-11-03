@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://diyp.112114.xyz/pp.xml"
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://diyp.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV1
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV1&t=1761535820&token=e0d3682a414c20a42405e6e906daa092
+http://180.113.62.88:8800/rtp/239.49.8.129:6000
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://diyp.112114.xyz/logo/CCTV2.png" group-title="央视",CCTV2
 https://stream.iptv-search.com/iptv_test/main.php?id=CCTV2&t=1761535820&token=f376129a7a3bd45f6272090e4bf2931e
 #EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://diyp.112114.xyz/logo/CCTV3.png" group-title="央视",CCTV3
@@ -21,25 +21,47 @@ https://stream.iptv-search.com/iptv_test/main.php?id=CCTV9&t=1761535820&token=54
 https://stream.iptv-search.com/iptv_test/main.php?id=CCTV9&t=1761535820&token=542e3d70b754662cf452086127ffde47
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://diyp.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV10
 https://stream.iptv-search.com/iptv_test/main.php?id=CCTV10&t=1761535820&token=10454c725c9b35986b6c9650f7d2a752
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://diyp.112114.xyz/logo/浙江卫视.png" group-title="地方",浙江卫视
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://diyp.112114.xyz/logo/北京卫视.png" group-title="卫视",北京卫视
+http://api.kkitv.itv888.cn:8080/hls/h5uud1z84gn/index.m3u8
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://diyp.112114.xyz/logo/浙江卫视.png" group-title="卫视",浙江卫视
 https://stream.iptv-search.com/iptv_test/main.php?id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86&t=1761535820&token=1a504826167102e5b6169e95893a3241
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://diyp.112114.xyz/logo/湖南卫视.png" group-title="地方",湖南卫视
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://diyp.112114.xyz/logo/湖南卫视.png" group-title="卫视",湖南卫视
 http://api.kkitv.itv888.cn:8080/hls/hoxiunz7ce/index.m3u8
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://diyp.112114.xyz/logo/河北卫视.png" group-title="地方",河北卫视
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://diyp.112114.xyz/logo/河北卫视.png" group-title="卫视",河北卫视
 http://api.kkitv.itv888.cn:8080/hls/nd41hwdr82i/index.m3u8
-#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://diyp.112114.xyz/logo/云南卫视.png" group-title="地方",云南卫视
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://diyp.112114.xyz/logo/云南卫视.png" group-title="卫视",云南卫视
 http://api.kkitv.itv888.cn:8080/hls/jwvhleddq5/index.m3u8
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://diyp.112114.xyz/logo/吉林卫视.png" group-title="卫视",吉林卫视
+https://stream.iptv-search.com/iptv_test/main.php?id=%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86&t=1761535820&token=60006761e1bc42f98f5af41496666262
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://diyp.112114.xyz/logo/湖北卫视.png" group-title="卫视",湖北卫视
+http://api.kkitv.itv888.cn:8080/hls/qwummpaoaq/index.m3u8
+#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://diyp.112114.xyz/logo/明珠台.png" group-title="香港",明珠台
+http://125.120.71.147:8888/udp/233.50.201.174:5140
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://diyp.112114.xyz/logo/翡翠台.png" group-title="香港",翡翠台
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://diyp.112114.xyz/logo/凤凰香港.png" group-title="香港",凤凰香港
+https://stream.iptv-search.com/iptv_test/main.php?id=%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF&t=1761535820&token=8ed845e19fdc4757cf58b9873744337d
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://diyp.112114.xyz/logo/凤凰中文.png" group-title="香港",凤凰中文
+https://stream.iptv-search.com/iptv_test/main.php?id=%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87&t=1761535820&token=345bb49529ed51a0d9ef822b3653ca3d
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://diyp.112114.xyz/logo/CHC动作电影.png" group-title="电影",CHC动作电影
 https://stream.iptv-search.com/iptv_test/main.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1&t=1761535820&token=940957bbd1b11982b948766135ba74cb
 #EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://diyp.112114.xyz/logo/CHC影迷电影.png" group-title="电影",CHC影迷电影
 https://stream.iptv-search.com/iptv_test/main.php?id=CHC%E5%BD%B1%E8%BF%B7%E7%94%B5%E5%BD%B1&t=1761535820&token=ba96d274be6245dec71641dc99d4a22b
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://diyp.112114.xyz/logo/CHC动作电影.png" group-title="电影",CHC动作电影
 https://stream.iptv-search.com/iptv_test/main.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1&t=1761535820&token=940957bbd1b11982b948766135ba74cb
-#EXTINF:-1 tvg-id="凤凰卫视" tvg-name="凤凰卫视" tvg-logo="https://diyp.112114.xyz/logo/凤凰卫视.png" group-title="港澳",凤凰卫视
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://diyp.112114.xyz/logo/凤凰资讯.png" group-title="港澳",凤凰资讯
-https://stream.iptv-search.com/iptv_test/main.php?id=%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF&t=1761535820&token=5fbf05044e2b730b81617889dfb00535
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://diyp.112114.xyz/logo/凤凰香港.png" group-title="港澳",凤凰香港
-https://stream.iptv-search.com/iptv_test/main.php?id=%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF&t=1761535820&token=8ed845e19fdc4757cf58b9873744337d
-#EXTINF:-1 tvg-id="中天综合" tvg-name="中天综合" tvg-logo="https://diyp.112114.xyz/logo/中天综合.png" group-title="港澳",中天综合
-http://cnlive.org/channel/41db6ede/index.m3u8
+#EXTINF:-1 tvg-id="导航站" tvg-name="导航站" tvg-logo="https://diyp.112114.xyz/logo/导航站.png" group-title="电视喵",导航站
+https://www.bilibili.com/video/BV1SZ47zDEy8/?share_source=copy_web&vd_source=0ff53b7b59566dd33907b903ad936e21
+#EXTINF:-1 tvg-id="公众号" tvg-name="公众号" tvg-logo="https://diyp.112114.xyz/logo/公众号.png" group-title="电视喵",公众号
+https://gitee.com/da-qiang-classmate/typora/raw/master/image/20251016122530233.webp
+#EXTINF:-1 tvg-id="杜比全景声" tvg-name="杜比全景声" tvg-logo="https://diyp.112114.xyz/logo/杜比全景声.png" group-title="电视喵",杜比全景声
+https://www.bilibili.com/video/BV1zv411w7Aj
+#EXTINF:-1 tvg-id="8K" tvg-name="8K" tvg-logo="https://diyp.112114.xyz/logo/8K.png" group-title="电视喵",8K
+https://www.bilibili.com/video/BV1qM4y1w716
+#EXTINF:-1 tvg-id="杜比视界" tvg-name="杜比视界" tvg-logo="https://diyp.112114.xyz/logo/杜比视界.png" group-title="电视喵",杜比视界
+https://www.bilibili.com/video/BV1oq4y1S7T1
+#EXTINF:-1 tvg-id="R" tvg-name="HDR" tvg-logo="https://diyp.112114.xyz/logo/HDR.png" group-title="电视喵",HDR
+https://www.bilibili.com/video/BV1ta4y1L7jY
+#EXTINF:-1 tvg-id="R2" tvg-name="HDR2" tvg-logo="https://diyp.112114.xyz/logo/HDR2.png" group-title="电视喵",HDR2
+https://www.bilibili.com/video/BV1rp4y1e745
+#EXTINF:-1 tvg-id="R3" tvg-name="HDR3" tvg-logo="https://diyp.112114.xyz/logo/HDR3.png" group-title="电视喵",HDR3
+https://www.bilibili.com/video/BV1cL4y157PD
