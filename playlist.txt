@@ -629,7 +629,7 @@ rtmp://220.130.201.73/sat/tv701
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 #EXTINF:-1 tvg-id="Viutv" tvg-name="Viutv" tvg-logo="" group-title="港·澳",Viutv
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=viutv
-#EXTINF:-1 tvg-id="Viutv" tvg-name="Viutv" tvg-logo="" group-title="港·澳",Viutv
+#EXTINF:-1 tvg-id="Viutv" tvg-name="Viutv" tvg-logo="" group-title="港澳",Viutv
 https://live.hkdvb.com/hls/live/99.m3u8?token=631170156112507&edge=live.tvfree.sbs
 #EXTINF:-1 tvg-id="三立台湾" tvg-name="三立台湾" tvg-logo="" group-title="港·澳",三立台湾
 http://211.75.171.121:8516/http/61.67.128.137:8081/hls/65/807/ch020.m3u8
@@ -662,4 +662,4 @@ https://gitee.com/da-qiang-classmate/typora/raw/master/ceshi.mp4
 #EXTINF:-1 tvg-id="感谢赞助" tvg-name="感谢赞助" tvg-logo="" group-title="赞助",感谢赞助
 https://gitee.com/da-qiang-classmate/typora/raw/master/ceshi.mp4
 #EXTINF:-1 tvg-id="维护不易" tvg-name="维护不易" tvg-logo="" group-title="赞助",维护不易
-https://gitee.com/da-qiang-classmate/typora/raw/master/ceshi.mp4
+https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/74/69/32961266974/32961266974-1-30120.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&trid=1bbc9fa2d774491095860d2a9eb8b9du&oi=0x24098a74688086c0752d9a18cab878ea&mid=491358682&nbs=1&deadline=1762189167&platform=pc&gen=playurlv3&os=cosbv&og=cos&upsig=871c306f34a9c2a605a85ba1392c70f1&uparams=e,uipk,trid,oi,mid,nbs,deadline,platform,gen,os,og&bvc=vod&nettype=0&bw=1481865&f=u_0_0&agrr=0&buvid=E0DF94D8-99B5-F3E3-3DCD-4D7AD1C7756888435infoc&build=0&dl=0&orderid=0,3
