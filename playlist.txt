@@ -507,58 +507,82 @@ http://live.nctv.top/huya.php?id=29982647
 http://live.nctv.top/huya.php?id=30080237
 #EXTINF:-1 tvg-id="还我瓢瓢拳" tvg-name="还我瓢瓢拳" tvg-logo="" group-title="综艺",还我瓢瓢拳
 http://live.nctv.top/huya.php?id=21059578
-#EXTINF:-1 tvg-id="蜡笔小新欢乐多" tvg-name="蜡笔小新欢乐多" tvg-logo="" group-title="儿童",蜡笔小新欢乐多
+#EXTINF:-1 tvg-id="篮球" tvg-name="篮球" tvg-logo="" group-title="体育",篮球
+https://stream1.freetv.fun/20464ea1f974ce7ce54bab412b170f7013fedbd23c0ccafc0cd08ecb559ea599.ctv
+#EXTINF:-1 tvg-id="篮球" tvg-name="篮球" tvg-logo="" group-title="体育",篮球
+https://stream1.freetv.fun/fef1b607498319c6ef93510186d2369856d0877c138a67cc61aa3cd58a4eb941.ctv
+#EXTINF:-1 tvg-id="篮球" tvg-name="篮球" tvg-logo="" group-title="体育",篮球
+https://stream1.freetv.fun/6802096f57f79e595eb6a1ca51e22bc7f59ad586e9259591879eb9cbf78cfcdc.ctv
+#EXTINF:-1 tvg-id="足球" tvg-name="足球" tvg-logo="" group-title="体育",足球
+http://120.76.248.139/live/bfgd/4200000225.m3u8
+#EXTINF:-1 tvg-id="足球" tvg-name="足球" tvg-logo="" group-title="体育",足球
+http://sh.lnott.top:880/dx71.m3u8
+#EXTINF:-1 tvg-id="足球" tvg-name="足球" tvg-logo="" group-title="体育",足球
+https://stream1.freetv.fun/d4d0d301fac9ad8757e5d37281abaff62fc50009bbe2a3baaae3b506c8a68a49.m3u8
+#EXTINF:-1 tvg-id="足球" tvg-name="足球" tvg-logo="" group-title="体育",足球
+http://60.223.72.127:8002/rtp/226.0.2.225:9712
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="" group-title="体育",五星体育
+https://stream.iptv-search.com/iptv_test/main.php?id=%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2&t=1761535820&token=210a722bf0e2737cd45b3b5a8b942893
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="" group-title="体育",广东体育
+https://stream1.freetv.fun/280d062721afb928bbc31efaaac152ec1091c50e09d0a1b8f939752dd8e1f17c.ctv
+#EXTINF:-1 tvg-id="华视体育" tvg-name="华视体育" tvg-logo="" group-title="体育",华视体育
+https://stream1.freetv.fun/f7d8e1fcfd7eb512251b6da18e67187760ac602c400781e48ce3976e1dbd62c1.ctv
+#EXTINF:-1 tvg-id="蜡笔小新欢乐多" tvg-name="蜡笔小新欢乐多" tvg-logo="" group-title="少儿",蜡笔小新欢乐多
 http://live.nctv.top/huya.php?id=30362138
-#EXTINF:-1 tvg-id="柯南剧场版" tvg-name="柯南剧场版" tvg-logo="" group-title="儿童",柯南剧场版
+#EXTINF:-1 tvg-id="柯南剧场版" tvg-name="柯南剧场版" tvg-logo="" group-title="少儿",柯南剧场版
 http://live.nctv.top/huya.php?id=30080236
-#EXTINF:-1 tvg-id="黑子的篮球3" tvg-name="黑子的篮球3" tvg-logo="" group-title="儿童",黑子的篮球3
+#EXTINF:-1 tvg-id="黑子的篮球3" tvg-name="黑子的篮球3" tvg-logo="" group-title="少儿",黑子的篮球3
 http://live.nctv.top/huya.php?id=30080253
-#EXTINF:-1 tvg-id="迪迦奥特曼" tvg-name="迪迦奥特曼" tvg-logo="" group-title="儿童",迪迦奥特曼
+#EXTINF:-1 tvg-id="迪迦奥特曼" tvg-name="迪迦奥特曼" tvg-logo="" group-title="少儿",迪迦奥特曼
 http://live.nctv.top/huya.php?id=30080215
-#EXTINF:-1 tvg-id="仙逆" tvg-name="仙逆" tvg-logo="" group-title="儿童",仙逆
+#EXTINF:-1 tvg-id="仙逆" tvg-name="仙逆" tvg-logo="" group-title="少儿",仙逆
 http://live.nctv.top/huya.php?id=30080215
-#EXTINF:-1 tvg-id="不良人6" tvg-name="不良人6" tvg-logo="" group-title="儿童",不良人6
+#EXTINF:-1 tvg-id="不良人6" tvg-name="不良人6" tvg-logo="" group-title="少儿",不良人6
 http://live.nctv.top/huya.php?id=30080218
-#EXTINF:-1 tvg-id="全职猎人" tvg-name="全职猎人" tvg-logo="" group-title="儿童",全职猎人
+#EXTINF:-1 tvg-id="全职猎人" tvg-name="全职猎人" tvg-logo="" group-title="少儿",全职猎人
 http://live.nctv.top/huya.php?id=30080254
-#EXTINF:-1 tvg-id="黑子的篮球3" tvg-name="黑子的篮球3" tvg-logo="" group-title="儿童",黑子的篮球3
+#EXTINF:-1 tvg-id="黑子的篮球3" tvg-name="黑子的篮球3" tvg-logo="" group-title="少儿",黑子的篮球3
 http://live.nctv.top/huya.php?id=30080253
-#EXTINF:-1 tvg-id="天澜魔法高中" tvg-name="天澜魔法高中" tvg-logo="" group-title="儿童",天澜魔法高中
+#EXTINF:-1 tvg-id="天澜魔法高中" tvg-name="天澜魔法高中" tvg-logo="" group-title="少儿",天澜魔法高中
 http://live.nctv.top/huya.php?id=26355772
-#EXTINF:-1 tvg-id="民调局异闻录" tvg-name="民调局异闻录" tvg-logo="" group-title="儿童",民调局异闻录
+#EXTINF:-1 tvg-id="民调局异闻录" tvg-name="民调局异闻录" tvg-logo="" group-title="少儿",民调局异闻录
 http://live.nctv.top/huya.php?id=26355820
-#EXTINF:-1 tvg-id="地灵曲" tvg-name="地灵曲" tvg-logo="" group-title="儿童",地灵曲
+#EXTINF:-1 tvg-id="地灵曲" tvg-name="地灵曲" tvg-logo="" group-title="少儿",地灵曲
 http://live.nctv.top/huya.php?id=30080216
-#EXTINF:-1 tvg-id="武魂世界" tvg-name="武魂世界" tvg-logo="" group-title="儿童",武魂世界
+#EXTINF:-1 tvg-id="武魂世界" tvg-name="武魂世界" tvg-logo="" group-title="少儿",武魂世界
 http://live.nctv.top/huya.php?id=30357181
-#EXTINF:-1 tvg-id="网球王子" tvg-name="网球王子" tvg-logo="" group-title="儿童",网球王子
+#EXTINF:-1 tvg-id="网球王子" tvg-name="网球王子" tvg-logo="" group-title="少儿",网球王子
 http://live.nctv.top/huya.php?id=11352882
-#EXTINF:-1 tvg-id="国漫打戏天花板" tvg-name="国漫打戏天花板" tvg-logo="" group-title="儿童",国漫打戏天花板
+#EXTINF:-1 tvg-id="国漫打戏天花板" tvg-name="国漫打戏天花板" tvg-logo="" group-title="少儿",国漫打戏天花板
 http://live.nctv.top/huya.php?id=11352869
-#EXTINF:-1 tvg-id="成龍历险记" tvg-name="成龍历险记" tvg-logo="" group-title="儿童",成龍历险记
+#EXTINF:-1 tvg-id="成龍历险记" tvg-name="成龍历险记" tvg-logo="" group-title="少儿",成龍历险记
 http://live.nctv.top/huya.php?id=11352946
-#EXTINF:-1 tvg-id="_blue胖" tvg-name="_blue胖" tvg-logo="" group-title="儿童",_blue胖
+#EXTINF:-1 tvg-id="_blue胖" tvg-name="_blue胖" tvg-logo="" group-title="少儿",_blue胖
 http://live.nctv.top/huya.php?id=11601963
-#EXTINF:-1 tvg-id="七龍珠改" tvg-name="七龍珠改" tvg-logo="" group-title="儿童",七龍珠改
+#EXTINF:-1 tvg-id="七龍珠改" tvg-name="七龍珠改" tvg-logo="" group-title="少儿",七龍珠改
 http://live.nctv.top/huya.php?id=11601966
-#EXTINF:-1 tvg-id="一念斩千魔" tvg-name="一念斩千魔" tvg-logo="" group-title="儿童",一念斩千魔
+#EXTINF:-1 tvg-id="一念斩千魔" tvg-name="一念斩千魔" tvg-logo="" group-title="少儿",一念斩千魔
 http://live.nctv.top/huya.php?id=21059592
-#EXTINF:-1 tvg-id="魔法少女" tvg-name="魔法少女" tvg-logo="" group-title="儿童",魔法少女
+#EXTINF:-1 tvg-id="魔法少女" tvg-name="魔法少女" tvg-logo="" group-title="少儿",魔法少女
 http://live.nctv.top/huya.php?id=21059587
-#EXTINF:-1 tvg-id="一人之上" tvg-name="一人之上" tvg-logo="" group-title="儿童",一人之上
+#EXTINF:-1 tvg-id="一人之上" tvg-name="一人之上" tvg-logo="" group-title="少儿",一人之上
 http://live.nctv.top/huya.php?id=11602065
-#EXTINF:-1 tvg-id="编辑部的故事" tvg-name="编辑部的故事" tvg-logo="" group-title="儿童",编辑部的故事
+#EXTINF:-1 tvg-id="编辑部的故事" tvg-name="编辑部的故事" tvg-logo="" group-title="少儿",编辑部的故事
 http://live.nctv.top/huya.php?id=21059591
-#EXTINF:-1 tvg-id="刘关张三活宝" tvg-name="刘关张三活宝" tvg-logo="" group-title="儿童",刘关张三活宝
+#EXTINF:-1 tvg-id="刘关张三活宝" tvg-name="刘关张三活宝" tvg-logo="" group-title="少儿",刘关张三活宝
 http://live.nctv.top/huya.php?id=29465871
-#EXTINF:-1 tvg-id="红娘妖狐" tvg-name="红娘妖狐" tvg-logo="" group-title="儿童",红娘妖狐
+#EXTINF:-1 tvg-id="红娘妖狐" tvg-name="红娘妖狐" tvg-logo="" group-title="少儿",红娘妖狐
 http://live.nctv.top/huya.php?id=11352967
-#EXTINF:-1 tvg-id="灵界侦探浦饭幽助" tvg-name="灵界侦探浦饭幽助" tvg-logo="" group-title="儿童",灵界侦探浦饭幽助
+#EXTINF:-1 tvg-id="灵界侦探浦饭幽助" tvg-name="灵界侦探浦饭幽助" tvg-logo="" group-title="少儿",灵界侦探浦饭幽助
 http://live.nctv.top/huya.php?id=11602034
-#EXTINF:-1 tvg-id="假面骑士龙骑" tvg-name="假面骑士龙骑" tvg-logo="" group-title="儿童",假面骑士龙骑
+#EXTINF:-1 tvg-id="假面骑士龙骑" tvg-name="假面骑士龙骑" tvg-logo="" group-title="少儿",假面骑士龙骑
 http://live.nctv.top/huya.php?id=11352918
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="港澳",翡翠台
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="港澳",翡翠台
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct2
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="港澳",翡翠台
+http://cdn6.163189.xyz/163189/fct4k
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="港澳",翡翠台
 https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="港澳",翡翠台
@@ -653,6 +677,8 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=viutv
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 #EXTINF:-1 tvg-id="Viutv" tvg-name="Viutv" tvg-logo="" group-title="港澳",Viutv
 https://live.hkdvb.com/hls/live/99.m3u8?token=631170156112507&edge=live.tvfree.sbs
+#EXTINF:-1 tvg-id="NHK" tvg-name="NHK" tvg-logo="" group-title="港澳",NHK
+https://stream.iptv-search.com/iptv_test/main.php?id=NHK+World-Japan+%281080p%29&t=1761535820&token=35acb59626417b014d13c5610d5cb348
 #EXTINF:-1 tvg-id="公众号" tvg-name="公众号" tvg-logo="" group-title="赞助",公众号
 https://gitee.com/da-qiang-classmate/typora/raw/master/ceshi.mp4
 #EXTINF:-1 tvg-id="大强同学" tvg-name="大强同学" tvg-logo="" group-title="赞助",大强同学
