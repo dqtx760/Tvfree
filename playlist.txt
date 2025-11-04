@@ -8,17 +8,23 @@ http://221.216.140.128:12125/rtp/239.3.1.129:8008
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="" group-title="央视",CCTV1
 http://60.174.40.117:85/tsfile/live/0001_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="" group-title="央视",CCTV2
-https://stream.iptv-search.com/iptv_test/main.php?id=CCTV2&t=1761535820&token=f376129a7a3bd45f6272090e4bf2931e
+https://stream1.freetv.fun/6df1c5b295d5bc8d42245968e3586a03f9a4d79f71aff5dab3261ec7d71e9dd9.ctv
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="" group-title="央视",CCTV2
-http://60.174.40.117:85/tsfile/live/0002_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="" group-title="央视",CCTV3
-http://60.174.40.117:85/tsfile/live/0003_1.m3u8?key=txiptv
+https://stream1.freetv.fun/cctv2-59.ctv
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="" group-title="央视",CCTV2
+https://stream1.freetv.fun/e9ce2600ddd9798bc799287e8e331bbb84716754f777900fa8c20b9d7b376965.ctv
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="" group-title="央视",CCTV2
+https://stream1.freetv.fun/cctv2-36.ctv
 #EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="" group-title="央视",CCTV3
 https://stream.iptv-search.com/iptv_test/main.php?id=CCTV3&t=1761535820&token=94ceb2a589994f81322adead709e19f0
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="" group-title="央视",CCTV3
+http://60.174.40.117:85/tsfile/live/0003_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="" group-title="央视",CCTV3
 http://60.174.40.117:85/tsfile/live/0004_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="" group-title="央视",CCTV4
 https://stream.iptv-search.com/iptv_test/main.php?id=CCTV4&t=1761535820&token=e8f47ed3c74dfa5b9ad8d59df6682572
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="" group-title="央视",CCTV4
+https://stream1.freetv.fun/a88d74532ae065bcc0328e4448f4298a0722666413689773b636d0763bdaa1db.ctv
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="" group-title="央视",CCTV5
 https://stream.iptv-search.com/iptv_test/main.php?id=CCTV5&t=1761535820&token=ba08c45bfa06b30188b308334df13a8e
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="" group-title="央视",CCTV5
@@ -281,196 +287,6 @@ http://live.nctv.top/huya.php?id=11352877
 http://live.nctv.top/huya.php?id=11352945
 #EXTINF:-1 tvg-id="误杀3" tvg-name="误杀3" tvg-logo="" group-title="电影",误杀3
 http://live.nctv.top/huya.php?id=880219
-#EXTINF:-1 tvg-id="李云龙" tvg-name="李云龙" tvg-logo="" group-title="剧集",李云龙
-http://live.nctv.top/huya.php?id=30080238
-#EXTINF:-1 tvg-id="许三多" tvg-name="许三多" tvg-logo="" group-title="剧集",许三多
-http://live.nctv.top/huya.php?id=11342430
-#EXTINF:-1 tvg-id="父母爱情" tvg-name="父母爱情" tvg-logo="" group-title="剧集",父母爱情
-http://live.nctv.top/huya.php?id=11602071
-#EXTINF:-1 tvg-id="苏大强" tvg-name="苏大强" tvg-logo="" group-title="剧集",苏大强
-http://live.nctv.top/huya.php?id=21059594
-#EXTINF:-1 tvg-id="情满四合院" tvg-name="情满四合院" tvg-logo="" group-title="剧集",情满四合院
-http://live.nctv.top/huya.php?id=11342426
-#EXTINF:-1 tvg-id="胡八一" tvg-name="胡八一" tvg-logo="" group-title="剧集",胡八一
-http://live.nctv.top/huya.php?id=11352871
-#EXTINF:-1 tvg-id="搞笑一家人" tvg-name="搞笑一家人" tvg-logo="" group-title="剧集",搞笑一家人
-http://live.nctv.top/huya.php?id=11342402
-#EXTINF:-1 tvg-id="杨光的快乐生活" tvg-name="杨光的快乐生活" tvg-logo="" group-title="剧集",杨光的快乐生活
-http://live.nctv.top/huya.php?id=11602085
-#EXTINF:-1 tvg-id="狄仁杰" tvg-name="狄仁杰" tvg-logo="" group-title="剧集",狄仁杰
-http://live.nctv.top/huya.php?id=11342425
-#EXTINF:-1 tvg-id="李淳罡" tvg-name="李淳罡" tvg-logo="" group-title="剧集",李淳罡
-http://live.nctv.top/huya.php?id=11336592
-#EXTINF:-1 tvg-id="范闲" tvg-name="范闲" tvg-logo="" group-title="剧集",范闲
-http://live.nctv.top/huya.php?id=11352960
-#EXTINF:-1 tvg-id="医馆笑传" tvg-name="医馆笑传" tvg-logo="" group-title="剧集",医馆笑传
-http://live.nctv.top/huya.php?id=11352891
-#EXTINF:-1 tvg-id="小染坊" tvg-name="小染坊" tvg-logo="" group-title="剧集",小染坊
-http://live.nctv.top/huya.php?id=11602086
-#EXTINF:-1 tvg-id="狄仁杰" tvg-name="狄仁杰" tvg-logo="" group-title="剧集",狄仁杰
-http://live.nctv.top/huya.php?id=11352958
-#EXTINF:-1 tvg-id="春水盈盈" tvg-name="春水盈盈" tvg-logo="" group-title="剧集",春水盈盈
-http://live.nctv.top/huya.php?id=30080255
-#EXTINF:-1 tvg-id="乡村爱情" tvg-name="乡村爱情" tvg-logo="" group-title="剧集",乡村爱情
-http://live.nctv.top/huya.php?id=11602088
-#EXTINF:-1 tvg-id="在哪儿跌倒的还得在哪儿爬起来" tvg-name="在哪儿跌倒的还得在哪儿爬起来" tvg-logo="" group-title="剧集",在哪儿跌倒的还得在哪儿爬起来
-http://live.nctv.top/huya.php?id=11602088
-#EXTINF:-1 tvg-id="夏雪夏雨夏冰雹" tvg-name="夏雪夏雨夏冰雹" tvg-logo="" group-title="剧集",夏雪夏雨夏冰雹
-http://live.nctv.top/huya.php?id=11352872
-#EXTINF:-1 tvg-id="扫黑风暴" tvg-name="扫黑风暴" tvg-logo="" group-title="剧集",扫黑风暴
-http://live.nctv.top/huya.php?id=11342404
-#EXTINF:-1 tvg-id="云南虫谷" tvg-name="云南虫谷" tvg-logo="" group-title="剧集",云南虫谷
-http://live.nctv.top/huya.php?id=11352910
-#EXTINF:-1 tvg-id="三国演义" tvg-name="三国演义" tvg-logo="" group-title="剧集",三国演义
-http://live.nctv.top/huya.php?id=11602081
-#EXTINF:-1 tvg-id="神雕侠侣" tvg-name="神雕侠侣" tvg-logo="" group-title="剧集",神雕侠侣
-http://live.nctv.top/huya.php?id=11352964
-#EXTINF:-1 tvg-id="鬼吹灯" tvg-name="鬼吹灯" tvg-logo="" group-title="剧集",鬼吹灯
-http://live.nctv.top/huya.php?id=29465863
-#EXTINF:-1 tvg-id="渗透" tvg-name="渗透" tvg-logo="" group-title="剧集",渗透
-http://live.nctv.top/huya.php?id=30080244
-#EXTINF:-1 tvg-id="抗日游击队" tvg-name="抗日游击队" tvg-logo="" group-title="剧集",抗日游击队
-http://live.nctv.top/huya.php?id=11352912
-#EXTINF:-1 tvg-id="抗战英雄" tvg-name="抗战英雄" tvg-logo="" group-title="剧集",抗战英雄
-http://live.nctv.top/huya.php?id=11352936
-#EXTINF:-1 tvg-id="炊事班的故事" tvg-name="炊事班的故事" tvg-logo="" group-title="剧集",炊事班的故事
-http://live.nctv.top/huya.php?id=19524135
-#EXTINF:-1 tvg-id="民兵葛二蛋" tvg-name="民兵葛二蛋" tvg-logo="" group-title="剧集",民兵葛二蛋
-http://live.nctv.top/huya.php?id=11602072
-#EXTINF:-1 tvg-id="你是我的荣耀" tvg-name="你是我的荣耀" tvg-logo="" group-title="剧集",你是我的荣耀
-http://live.nctv.top/huya.php?id=11352920
-#EXTINF:-1 tvg-id="特种兵之火凤凰" tvg-name="特种兵之火凤凰" tvg-logo="" group-title="剧集",特种兵之火凤凰
-http://live.nctv.top/huya.php?id=29982636
-#EXTINF:-1 tvg-id="我就问你这瓜保熟吗" tvg-name="我就问你这瓜保熟吗" tvg-logo="" group-title="剧集",我就问你这瓜保熟吗
-http://live.nctv.top/huya.php?id=11601970
-#EXTINF:-1 tvg-id="一代枭雄" tvg-name="一代枭雄" tvg-logo="" group-title="剧集",一代枭雄
-http://live.nctv.top/huya.php?id=11342398
-#EXTINF:-1 tvg-id="白鹿原" tvg-name="白鹿原" tvg-logo="" group-title="剧集",白鹿原
-http://live.nctv.top/huya.php?id=11342416
-#EXTINF:-1 tvg-id="太极张三丰" tvg-name="太极张三丰" tvg-logo="" group-title="剧集",太极张三丰
-http://live.nctv.top/huya.php?id=26355770
-#EXTINF:-1 tvg-id="勇敢的心" tvg-name="勇敢的心" tvg-logo="" group-title="剧集",勇敢的心
-http://live.nctv.top/huya.php?id=11602037
-#EXTINF:-1 tvg-id="刑事侦缉档案" tvg-name="刑事侦缉档案" tvg-logo="" group-title="剧集",刑事侦缉档案
-http://live.nctv.top/huya.php?id=29465856
-#EXTINF:-1 tvg-id="漫长的季节" tvg-name="漫长的季节" tvg-logo="" group-title="剧集",漫长的季节
-http://live.nctv.top/huya.php?id=11342393
-#EXTINF:-1 tvg-id="王漫妮" tvg-name="王漫妮" tvg-logo="" group-title="剧集",王漫妮
-http://live.nctv.top/huya.php?id=21059609
-#EXTINF:-1 tvg-id="汉武大帝" tvg-name="汉武大帝" tvg-logo="" group-title="剧集",汉武大帝
-http://live.nctv.top/huya.php?id=26355859
-#EXTINF:-1 tvg-id="全职高手" tvg-name="全职高手" tvg-logo="" group-title="剧集",全职高手
-http://live.nctv.top/huya.php?id=11352901
-#EXTINF:-1 tvg-id="风筝" tvg-name="风筝" tvg-logo="" group-title="剧集",风筝
-http://live.nctv.top/huya.php?id=30080225
-#EXTINF:-1 tvg-id="陀枪师姐" tvg-name="陀枪师姐" tvg-logo="" group-title="剧集",陀枪师姐
-http://live.nctv.top/huya.php?id=29465855
-#EXTINF:-1 tvg-id="还珠格格" tvg-name="还珠格格" tvg-logo="" group-title="剧集",还珠格格
-http://live.nctv.top/huya.php?id=30080241
-#EXTINF:-1 tvg-id="与凤行" tvg-name="与凤行" tvg-logo="" group-title="剧集",与凤行
-http://live.nctv.top/huya.php?id=26355866
-#EXTINF:-1 tvg-id="湄公河大案" tvg-name="湄公河大案" tvg-logo="" group-title="剧集",湄公河大案
-http://live.nctv.top/huya.php?id=30080245
-#EXTINF:-1 tvg-id="星汉灿烂" tvg-name="星汉灿烂" tvg-logo="" group-title="剧集",星汉灿烂
-http://live.nctv.top/huya.php?id=11336591
-#EXTINF:-1 tvg-id="洗冤录" tvg-name="洗冤录" tvg-logo="" group-title="剧集",洗冤录
-http://live.nctv.top/huya.php?id=29465851
-#EXTINF:-1 tvg-id="超级交通站" tvg-name="超级交通站" tvg-logo="" group-title="剧集",超级交通站
-http://live.nctv.top/huya.php?id=11342433
-#EXTINF:-1 tvg-id="一起同过窗" tvg-name="一起同过窗" tvg-logo="" group-title="剧集",一起同过窗
-http://live.nctv.top/huya.php?id=30080228
-#EXTINF:-1 tvg-id="盗墓笔记" tvg-name="盗墓笔记" tvg-logo="" group-title="剧集",盗墓笔记
-http://live.nctv.top/huya.php?id=11352912
-#EXTINF:-1 tvg-id="三体" tvg-name="三体" tvg-logo="" group-title="剧集",三体
-http://live.nctv.top/huya.php?id=11352954
-#EXTINF:-1 tvg-id="亲爱的热爱的" tvg-name="亲爱的热爱的" tvg-logo="" group-title="剧集",亲爱的热爱的
-http://live.nctv.top/huya.php?id=29982671
-#EXTINF:-1 tvg-id="怒海潜沙" tvg-name="怒海潜沙" tvg-logo="" group-title="剧集",怒海潜沙
-http://live.nctv.top/huya.php?id=11342415
-#EXTINF:-1 tvg-id="画像师" tvg-name="画像师" tvg-logo="" group-title="剧集",画像师
-http://live.nctv.top/huya.php?id=11601962
-#EXTINF:-1 tvg-id="开端" tvg-name="开端" tvg-logo="" group-title="剧集",开端
-http://live.nctv.top/huya.php?id=11342397
-#EXTINF:-1 tvg-id="良心医疗剧" tvg-name="良心医疗剧" tvg-logo="" group-title="剧集",良心医疗剧
-http://live.nctv.top/huya.php?id=11352890
-#EXTINF:-1 tvg-id="鬼吹灯" tvg-name="鬼吹灯" tvg-logo="" group-title="剧集",鬼吹灯
-http://live.nctv.top/huya.php?id=11352883
-#EXTINF:-1 tvg-id="大瓜" tvg-name="大瓜" tvg-logo="" group-title="剧集",大瓜
-http://live.nctv.top/huya.php?id=11342436
-#EXTINF:-1 tvg-id="怒晴湘西" tvg-name="怒晴湘西" tvg-logo="" group-title="剧集",怒晴湘西
-http://live.nctv.top/huya.php?id=11602075
-#EXTINF:-1 tvg-id="打工姐妹花" tvg-name="打工姐妹花" tvg-logo="" group-title="剧集",打工姐妹花
-http://live.nctv.top/huya.php?id=21059564
-#EXTINF:-1 tvg-id="扫黄先锋" tvg-name="扫黄先锋" tvg-logo="" group-title="剧集",扫黄先锋
-http://live.nctv.top/huya.php?id=29465855
-#EXTINF:-1 tvg-id="红色经典" tvg-name="红色经典" tvg-logo="" group-title="剧集",红色经典
-http://live.nctv.top/huya.php?id=11602076
-#EXTINF:-1 tvg-id="青岛往事" tvg-name="青岛往事" tvg-logo="" group-title="剧集",青岛往事
-http://live.nctv.top/huya.php?id=11342434
-#EXTINF:-1 tvg-id="创世纪" tvg-name="创世纪" tvg-logo="" group-title="剧集",创世纪
-http://live.nctv.top/huya.php?id=29465852
-#EXTINF:-1 tvg-id="妙手仁心" tvg-name="妙手仁心" tvg-logo="" group-title="剧集",妙手仁心
-http://live.nctv.top/huya.php?id=29465853
-#EXTINF:-1 tvg-id="特战荣耀" tvg-name="特战荣耀" tvg-logo="" group-title="剧集",特战荣耀
-http://live.nctv.top/huya.php?id=30080252
-#EXTINF:-1 tvg-id="笑看风云" tvg-name="笑看风云" tvg-logo="" group-title="剧集",笑看风云
-http://live.nctv.top/huya.php?id=29465858
-#EXTINF:-1 tvg-id="包蛋超人" tvg-name="包蛋超人" tvg-logo="" group-title="剧集",包蛋超人
-http://live.nctv.top/huya.php?id=11342400
-#EXTINF:-1 tvg-id="传闻中的陈芊芊" tvg-name="传闻中的陈芊芊" tvg-logo="" group-title="剧集",传闻中的陈芊芊
-http://live.nctv.top/huya.php?id=21059608
-#EXTINF:-1 tvg-id="双面胶" tvg-name="双面胶" tvg-logo="" group-title="剧集",双面胶
-http://live.nctv.top/huya.php?id=11352956
-#EXTINF:-1 tvg-id="宝总与王小姐" tvg-name="宝总与王小姐" tvg-logo="" group-title="剧集",宝总与王小姐
-http://live.nctv.top/huya.php?id=21059580
-#EXTINF:-1 tvg-id="国风动画" tvg-name="国风动画" tvg-logo="" group-title="剧集",国风动画
-http://live.nctv.top/huya.php?id=30080242
-#EXTINF:-1 tvg-id="编辑部的故事" tvg-name="编辑部的故事" tvg-logo="" group-title="剧集",编辑部的故事
-http://live.nctv.top/huya.php?id=21059591
-#EXTINF:-1 tvg-id="外科风云" tvg-name="外科风云" tvg-logo="" group-title="剧集",外科风云
-http://live.nctv.top/huya.php?id=29982672
-#EXTINF:-1 tvg-id="超级英雄" tvg-name="超级英雄" tvg-logo="" group-title="剧集",超级英雄
-http://live.nctv.top/huya.php?id=29982666
-#EXTINF:-1 tvg-id="有翡" tvg-name="有翡" tvg-logo="" group-title="剧集",有翡
-http://live.nctv.top/huya.php?id=29982668
-#EXTINF:-1 tvg-id="天天有喜" tvg-name="天天有喜" tvg-logo="" group-title="剧集",天天有喜
-http://live.nctv.top/huya.php?id=26355849
-#EXTINF:-1 tvg-id="梦中的那片海" tvg-name="梦中的那片海" tvg-logo="" group-title="剧集",梦中的那片海
-http://live.nctv.top/huya.php?id=26355765
-#EXTINF:-1 tvg-id="神探夏洛克" tvg-name="神探夏洛克" tvg-logo="" group-title="剧集",神探夏洛克
-http://live.nctv.top/huya.php?id=26355792
-#EXTINF:-1 tvg-id="星球大战" tvg-name="星球大战" tvg-logo="" group-title="剧集",星球大战
-http://live.nctv.top/huya.php?id=30080234
-#EXTINF:-1 tvg-id="陆贞传奇" tvg-name="陆贞传奇" tvg-logo="" group-title="剧集",陆贞传奇
-http://live.nctv.top/huya.php?id=29982670
-#EXTINF:-1 tvg-id="王子变青蛙" tvg-name="王子变青蛙" tvg-logo="" group-title="剧集",王子变青蛙
-http://live.nctv.top/huya.php?id=11601964
-#EXTINF:-1 tvg-id="顾晓梦" tvg-name="顾晓梦" tvg-logo="" group-title="剧集",顾晓梦
-http://live.nctv.top/huya.php?id=21059605
-#EXTINF:-1 tvg-id="草莽英雄" tvg-name="草莽英雄" tvg-logo="" group-title="剧集",草莽英雄
-http://live.nctv.top/huya.php?id=11602042
-#EXTINF:-1 tvg-id="孙先生" tvg-name="孙先生" tvg-logo="" group-title="剧集",孙先生
-http://live.nctv.top/huya.php?id=26355821
-#EXTINF:-1 tvg-id="斗罗大陆" tvg-name="斗罗大陆" tvg-logo="" group-title="剧集",斗罗大陆
-http://live.nctv.top/huya.php?id=11352892
-#EXTINF:-1 tvg-id="王艳" tvg-name="王艳" tvg-logo="" group-title="剧集",王艳
-http://live.nctv.top/huya.php?id=11342420
-#EXTINF:-1 tvg-id="星际迷航" tvg-name="星际迷航" tvg-logo="" group-title="剧集",星际迷航
-http://live.nctv.top/huya.php?id=30080232
-#EXTINF:-1 tvg-id="民调局异闻录" tvg-name="民调局异闻录" tvg-logo="" group-title="剧集",民调局异闻录
-http://live.nctv.top/huya.php?id=26355820
-#EXTINF:-1 tvg-id="瑶山" tvg-name="瑶山" tvg-logo="" group-title="剧集",瑶山
-http://live.nctv.top/huya.php?id=11342392
-#EXTINF:-1 tvg-id="超异能族" tvg-name="超异能族" tvg-logo="" group-title="剧集",超异能族
-http://live.nctv.top/huya.php?id=21059586
-#EXTINF:-1 tvg-id="无心法师" tvg-name="无心法师" tvg-logo="" group-title="剧集",无心法师
-http://live.nctv.top/huya.php?id=30080233
-#EXTINF:-1 tvg-id="熊出没" tvg-name="熊出没" tvg-logo="" group-title="剧集",熊出没
-http://live.nctv.top/huya.php?id=11342438
-#EXTINF:-1 tvg-id="启航" tvg-name="启航" tvg-logo="" group-title="剧集",启航
-http://live.nctv.top/huya.php?id=30080248
-#EXTINF:-1 tvg-id="曾小贤" tvg-name="曾小贤" tvg-logo="" group-title="剧集",曾小贤
-http://live.nctv.top/huya.php?id=11336726
 #EXTINF:-1 tvg-id="易中天" tvg-name="易中天" tvg-logo="" group-title="综艺",易中天
 http://live.nctv.top/huya.php?id=11602032
 #EXTINF:-1 tvg-id="五哈" tvg-name="五哈" tvg-logo="" group-title="综艺",五哈
@@ -508,11 +324,11 @@ http://live.nctv.top/huya.php?id=30080237
 #EXTINF:-1 tvg-id="还我瓢瓢拳" tvg-name="还我瓢瓢拳" tvg-logo="" group-title="综艺",还我瓢瓢拳
 http://live.nctv.top/huya.php?id=21059578
 #EXTINF:-1 tvg-id="篮球" tvg-name="篮球" tvg-logo="" group-title="体育",篮球
+https://stream1.freetv.fun/6802096f57f79e595eb6a1ca51e22bc7f59ad586e9259591879eb9cbf78cfcdc.ctv
+#EXTINF:-1 tvg-id="篮球" tvg-name="篮球" tvg-logo="" group-title="体育",篮球
 https://stream1.freetv.fun/20464ea1f974ce7ce54bab412b170f7013fedbd23c0ccafc0cd08ecb559ea599.ctv
 #EXTINF:-1 tvg-id="篮球" tvg-name="篮球" tvg-logo="" group-title="体育",篮球
 https://stream1.freetv.fun/fef1b607498319c6ef93510186d2369856d0877c138a67cc61aa3cd58a4eb941.ctv
-#EXTINF:-1 tvg-id="篮球" tvg-name="篮球" tvg-logo="" group-title="体育",篮球
-https://stream1.freetv.fun/6802096f57f79e595eb6a1ca51e22bc7f59ad586e9259591879eb9cbf78cfcdc.ctv
 #EXTINF:-1 tvg-id="足球" tvg-name="足球" tvg-logo="" group-title="体育",足球
 http://120.76.248.139/live/bfgd/4200000225.m3u8
 #EXTINF:-1 tvg-id="足球" tvg-name="足球" tvg-logo="" group-title="体育",足球
