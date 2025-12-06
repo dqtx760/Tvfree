@@ -25,7 +25,7 @@
 
 **油管TV版**
 
-[SmartTube 无需框架，最高支持1080](https://smarttubeapp.github.io/)
+[SmartTube 无需谷歌框架，最高支持1080](https://smarttubeapp.github.io/)
 
 [YouTube for Fire TV 无需谷歌框架，最高支持4K](https://www.apkmirror.com/apk/google-inc/youtube-for-fire-tv/)
 
