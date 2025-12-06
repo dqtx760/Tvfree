@@ -23,6 +23,12 @@
 | **在线-工具**   | TXT/M3U转换 | [![TXT/M3U转换](https://img.shields.io/badge/-TXT%2FM3U转换-yellowgreen)](https://www.qiushui.vip/gj/zh.html)                                                                                                                                                                                                                                                                                                                                                                           |
 | **在线-工具**   | M3u检测     | [![M3u检测](https://img.shields.io/badge/-M3u检测-darkgreen)](https://pan.xunlei.com/s/VObOEh5aX766n2zOEttkN1oPA1?pwd=t6ku#)                                                                                                                                                                                                                                                                                                                                                             |
 
+**油管TV版**
+
+[SmartTube 无需框架，最高支持1080](https://smarttubeapp.github.io/)
+
+[YouTube for Fire TV 无需谷歌框架，最高支持4K](https://www.apkmirror.com/apk/google-inc/youtube-for-fire-tv/)
+
 ## ✅应用合集
 
 ### 1. 直播类应用：[![下载地址](https://img.shields.io/badge/-前往下载-informational)](https://pan.xunlei.com/x/VOc03g4SRNe1cv1Q-k6u7G2lA1?pwd=mt63#)
