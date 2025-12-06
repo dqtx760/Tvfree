@@ -3,7 +3,7 @@
 
 电视喵深谙智能视听之奥义，倾力甄选并集结优质APK资源，旨在超越寻常，为广大电视盒子用户奉献的不仅是触手可及的便捷下载与无缝更新，更是前瞻性的技术学习交流。希望此项目赋予您的智能电视以灵动之魂，让每一次交互皆是探索未知之境，每一次观影皆是沉浸式体验的升华，从而引领您的客厅娱乐迈向一个更深邃、更广阔的维度。
 
-## ✅开源地址
+## ✅APK更新地址
 
 | 类型            | 应用名称    | 更新链接                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :-------------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,7 +25,7 @@
 
 [YouTube for Fire TV 无需谷歌框架，最高支持4K](https://www.apkmirror.com/apk/google-inc/youtube-for-fire-tv/)
 
-## ✅应用合集
+## ✅APK分类合集
 
 ### 1. 直播类应用：[![下载地址](https://img.shields.io/badge/-前往下载-informational)](https://pan.xunlei.com/x/VOc03g4SRNe1cv1Q-k6u7G2lA1?pwd=mt63#)
 
@@ -36,19 +36,19 @@
 
 ## ✅接口获取
 
-### IPTV源
+### IPTV源（直播源）
 
 ```
-http://1tv.dqtx.cc/`
+[http://1tv.dqtx.cc/`](https://gh.idayer.com/https://raw.githubusercontent.com/dqtx760/1TV/refs/heads/main/index.html)
 
-http://2tv.dqtx.cc`
+[http://2tv.dqtx.cc`](http://47.120.41.246:8899/zb.txt)
 
-https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u/`
+[https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u/`](http://ax570383885.serv00.net/zy.txt)
 ```
 
 
 
-### TVBox源
+### TVBox源（点播源）
 
 ```
 http://cdn.qiaoji8.com/tvbox.json`
