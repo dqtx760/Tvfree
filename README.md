@@ -39,11 +39,11 @@
 ### IPTV源（直播源）
 
 ```
-[http://1tv.dqtx.cc/`](https://gh.idayer.com/https://raw.githubusercontent.com/dqtx760/1TV/refs/heads/main/index.html)
+https://gh.idayer.com/https://raw.githubusercontent.com/dqtx760/1TV/refs/heads/main/index.html
 
-[http://2tv.dqtx.cc`](http://47.120.41.246:8899/zb.txt)
+http://47.120.41.246:8899/zb.txt
 
-[https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u/`](http://ax570383885.serv00.net/zy.txt)
+https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u/`](http://ax570383885.serv00.net/zy.txt
 ```
 
 
