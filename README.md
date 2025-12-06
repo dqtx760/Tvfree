@@ -51,11 +51,11 @@ https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u/`](http://a
 ### TVBox源（点播源）
 
 ```
-http://cdn.qiaoji8.com/tvbox.json`
+http://cdn.qiaoji8.com/tvbox.json
 
-https://9877.kstore.space/AnotherD/api.json`
+https://9877.kstore.space/AnotherD/api.json
 
-https://gitee.com/da-qiang-classmate/typora/raw/master/image/1760714628427.webp`
+https://gitee.com/da-qiang-classmate/typora/raw/master/image/1760714628427.webp
 ```
 
 
