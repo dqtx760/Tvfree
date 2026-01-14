@@ -41,6 +41,8 @@
 ### IPTV源（直播源）
 
 ```
+https://github.com/fanmingming/live/tree/main/tv/m3u
+
 https://gh.idayer.com/https://raw.githubusercontent.com/dqtx760/1TV/refs/heads/main/index.html
 
 http://47.120.41.246:8899/zb.txt
